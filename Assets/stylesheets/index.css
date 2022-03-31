@@ -1,0 +1,148 @@
+.container-fluid{
+line-height: 1.8;
+font-family: "Work Sans",arial,sans-serif;
+
+}
+
+.navbar-brand
+{
+  color: white;
+}
+.nav-link
+{
+  color: white;
+    margin: 0;
+}
+#collapsibleNavbar{
+  margin-left: 50%;
+}
+.dropdown{
+ border: none;
+ background-color: transparent;
+}
+.bg-img {
+  /* The image used */
+  background: url(/images/xhero_1.jpg.pagespeed.ic.yu1ylfvph1.webp) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  font-size: 15px;
+  color:white ;
+}
+
+
+@media(max-width:768){
+  .navbar{
+    background-color: blue;
+
+  }
+
+}
+
+.card-body{
+  color:rgb(5, 5, 4);
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  line-height: 1.8;
+}
+
+
+.card{
+  direction: row;
+}
+.collapsible {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: transparent;
+  color: blue;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content2 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: black;
+}
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content:blue;
+}
+
+
+
+/* Float four columns side by side */
+.columnc {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+  color: blue;
+}
+.rowc {margin: 0 -5px;
+background-color: rgb(199, 193, 193);}
+
+/* Clear floats after the columns */
+.rowc:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .columnc{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+.column3 {
+  float: center;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.card1 {
+  margin: 8px;
+}
+.container1 {
+
+  padding-left: 20px;
+  padding-right: 20px;
+  bottom: 20px;
+  right: 20px;
+
+}
+
+.container1::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.footerlinks{
+  font-size: 10px;color: grey;
+}
+.linkheading{
+  color: rgb(78, 76, 76);font-size: 12px;
+}
