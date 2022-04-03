@@ -3,10 +3,10 @@ line-height: 1.8;
 font-family: "Work Sans",arial,sans-serif;
 
 }
-
 .navbar-brand
 {
   color: white;
+  align-content: left;
 }
 .nav-link
 {
@@ -16,28 +16,41 @@ font-family: "Work Sans",arial,sans-serif;
 #collapsibleNavbar{
   margin-left: 50%;
 }
+.header{
+  height: 700px;
+}
 .dropdown{
  border: none;
  background-color: transparent;
+    position: relative;
+    display: inline-block;
+
 }
 .bg-img {
   /* The image used */
-  background: url(/images/xhero_1.jpg.pagespeed.ic.yu1ylfvph1.webp) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/images/xhero_1.jpg.pagespeed.ic.yu1ylfvph1.webp) no-repeat center;
+
   background-size: cover;
   height: 500px;
   position: relative;
   font-size: 15px;
   color:white ;
 }
-
-
-@media(max-width:768){
-  .navbar{
-    background-color: blue;
-
-  }
-
+.navbar{
+  background-color: transparent!important;
 }
+
+
+navbar-light{
+  color:white;
+}
+@media(max-width:768)
+{
+.foot{
+  text-align: left;
+}
+}
+
 
 .card-body{
   color:rgb(5, 5, 4);
@@ -49,6 +62,7 @@ font-family: "Work Sans",arial,sans-serif;
 
 .card{
   direction: row;
+
 }
 .collapsible {
   background-color: transparent;
@@ -88,16 +102,19 @@ font-family: "Work Sans",arial,sans-serif;
 }
 
 
+.carousel-indicators .active:after {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #000000;
+}
 
 /* Float four columns side by side */
 .columnc {
-  float: left;
-  width: 25%;
-  padding: 0 5px;
+  background-color: rgb(243, 241, 252);
   color: blue;
 }
-.rowc {margin: 0 -5px;
-background-color: rgb(199, 193, 193);}
+
 
 /* Clear floats after the columns */
 .rowc:after {
@@ -112,6 +129,9 @@ background-color: rgb(199, 193, 193);}
     width: 100%;
     display: block;
     margin-bottom: 10px;
+  }
+  .rowfooter{
+    text-align:left;
   }
 }
 .column3 {
@@ -145,4 +165,86 @@ background-color: rgb(199, 193, 193);}
 }
 .linkheading{
   color: rgb(78, 76, 76);font-size: 12px;
+}
+
+.accordion-item{
+  border:none;
+  color: black;
+  background: transparent;
+}
+
+.fixed{
+  position: relative;
+  top: 5px;
+}
+@media(max-width:768px){
+  .hidden-text{
+    display: none;
+  }
+}
+.panel-heading {
+  cursor: pointer;
+  content: left;
+}
+/* CSS Method for adding Font Awesome Chevron Icons */
+.accordion-toggle:after {
+  /* symbol for "opening" panels */
+  font-family:'FontAwesome';
+  content:"\f146";
+  float: right;
+  color: inherit;
+  text-decoration: rgb(47, 116, 177);
+
+
+}
+.panel-heading.collapsed .accordion-toggle:after {
+  /* symbol for "collapsed" panels */
+  content:"\f0fe";
+  color:rgb(47, 116, 177);
+
+
+
+}
+.panel-heading {
+ padding: 0px 0px;
+}
+
+.accordion-toggle-text{
+  text-align: left;
+  background: transparent;
+}
+img {
+  max-width: 100%;
+}
+
+div.gallery {
+  margin: 0px;
+  float: left;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.blog{
+  padding: 100px 100px 100px 100px;
+}
+.padding-0{
+  padding-right:0;
+  padding-left:0;
+}
+.padding{
+  padding-right:10px;
+  padding-left:10px;
 }

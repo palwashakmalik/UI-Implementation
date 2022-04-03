@@ -1,455 +1,639 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <script
-      src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="stylesheets/index.css">
-    <link rel="stylesheet" href="stylesheets/Buttonsstyle.css">
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row bg-img">
-        <div class="col-12">
-          <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand" href="#">HumanResources</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-              data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li>
-                  <div class="dropdown">
-                    <button class="nav-link dropdown-toggle dropdown"
-                      data-toggle="dropdown">
-                      Services
-                    </button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Link 1</a>
-                      <a class="dropdown-item" href="#">Link 2</a>
-                      <a class="dropdown-item" href="#">Link 3</a>
-                    </div>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
 
-              </ul>
-            </div>
-          </nav>
-          <br>
-          <div class="col-md-4">
-            <h2>Why are your patners in <b>Human Resource</b> </h2>
-            <p>Far far away, behind the word mountains,far from the countries
-              Vokalia and consonanti,there
-              lives the blind texts.</p>
-            <button class="button button1">GET STARTED</button>
-            <button class="button button2">Learn More</button>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="stylesheets/index.css">
+  <link rel="stylesheet" href="stylesheets/Buttonsstyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/8b46c0041f.js" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
+<body>
+  <div class ="header">
+    <div class="row bg-img">
+
+      <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="#">HumanResources</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+            </ul>
           </div>
-          <div class="content">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-3">
-                  <div class="card" style="width: 18rem;">
-                    <i class="card-img-top material-icons"
-                      style="font-size:70px;color:rgb(16, 91, 189)">people_outline</i>
-                    <div class="card-body">
-                      <h5 class="card-title">Corperate Collaboration</h5>
-                      <p class="card-text">Some smaller river named dudan flows
-                        by
-                        their place and supplies it with the neccessary
-                        regelilia
-                      </p>
-                    </div>
-                    <div class="card-body">
-                      <a href="#" class="card-link float-left">Learn More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="card" style="width: 18rem;">
-                    <i class="card-img-top material-icons"
-                      style="font-size:70px;color:rgb(16, 91, 189)">people_outline</i>
-                    <div class="card-body">
-                      <h5 class="card-title">Strategic Patner</h5>
-                      <p class="card-text">Some smaller river named dudan
-                        flows by
-                        their place and supplies it with the neccessary
-                        regelilia
-                      </p>
-                    </div>
-                    <div class="card-body">
-                      <a href="#" class="card-link float-left">Learn More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="card" style="width: 18rem;">
-                    <i class="card-img-top material-icons"
-                      style="font-size:70px;color:rgb(16, 91, 189)">people_outline</i>
-                    <div class="card-body">
-                      <h5 class="card-title">Infinity Possibilities</h5>
-                      <p class="card-text">Some smaller river named dudan
-                        flows
-                        by
-                        their place and supplies it with the neccessary
-                        regelilia
-                      </p>
-                    </div>
-                    <div class="card-body">
-                      <a href="#" class="card-link float-left">Learn More</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      </nav>
 
-          <div class="container">
-            <div class="col">
-              <div class="row">
-                <div class="col-sm card-body">
-                  <h1 text-align: left;>Our Agency</h1>
-                  <img src="images/xslider-1.jpg.pagespeed.ic.lh95K5ylj0.webp"
-                    alt="Agency" style="width:100%">
-                </div>
-                <div class="col-sm card body">
-                  <h1>Why Us?</h1>
-                  <button type="button" class="collapsible">Provident alias</button>
-                  <div class="content2">
-                    <p>Lorem ipsum...</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="row">
-                <div class="col-sm card body">
-                  <h1>Why Us?</h1>
-                  <button type="button" class="collapsible">Debitis ad similique
-                    tempore</button>
-                  <div class="content2">
-                    <p>Lorem ipsum...</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm card body">
-                  <h1>Why Us?</h1>
-                  <button type="button" class="collapsible">Lorem ipsum dolor
-                    sit amet</button>
-                  <div class="content2">
-                    <p>Lorem ipsum...</p>
-                  </div>
-                </div>
-              </div>
+      <br>
+      <div class="col-md-4">
+        <h2>Why are your patners in <b>Human Resource</b> </h2>
+        <p>Far far away, behind the word mountains,far from the countries
+          Vokalia and consonanti,there
+          lives the blind texts.</p>
+        <button class="button button1">GET STARTED</button>
+        <button class="button button2">Learn More</button>
 
-              <div class="row">
-                <div class="col-sm card body">
-                  <h1>Why Us?</h1>
-                  <button type="button" class="collapsible">Modi natus suscipit</button>
-                  <div class="content2">
-                    <p>Lorem ipsum...</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container" style="padding: 0px 20px;">
-            <div class="rowc">
-              <div class="columnc">
-                <h3>99,399</h3>
-                <p style="color:rgb(143, 140, 140)">NUMBER OF CLIENTS</p>
-              </div>
-
-              <div class="columnc">
-                <h3>199</h3>
-                <p style="color:rgb(143, 140, 140)">NUMBER OF PERSONNEL</p>
-              </div>
-              <div class="columnc">
-                <h3>24</h3>
-                <p style="color:rgb(143, 140, 140)">YEARS OF EXPERIENCE</p>
-              </div>
-            </div>
-          </div>
-
+      </div>
+      <div class="row ">
+      <div class="content mt-5 mx-auto ">
+        <div class="container ">
           <div class="row">
-            <div class="container">
-              <h2 style="text-align:center">The Leadership</h2>
-            </div>
-          </div>
-          <div class="container">
-
-
-            <div class="row">
-              <div class="column3">
-                <div class="card">
-                  <img
-                    src="/images/xperson_1.jpg.pagespeed.ic.YTN3ICQ2Kp.webp"
-                    alt="Bob Miller" style="width:100%">
-                  <div class="container1">
-                    <h2 style="color: rgb(3, 3, 3); font-family:Arial,
-                      Helvetica, sans-serif;"><b>BOB MILLER</b></h2>
-                    <p class="title" style="color: grey;">CEO & Founder</p>
-                  </div>
+            <div class="col-md-3 mr-5">
+              <div class="card" style="width: 27rem; box-shadow: 04px 4px 8px 4px rgba(0,0,0,0.2);">
+                <i class="card-img-top material-icons" style="font-size:70px;color:rgb(16, 91, 189)">people_outline</i>
+                <div class="card-body">
+                  <h3 class="card-title hidden-text">Corperate Collaboration</h3>
+                  <p class="card-text hidden-text">Some smaller river named dudan flows
+                    by
+                    their place and supplies it with the neccessary
+                    regelilia
+                  </p>
                 </div>
-              </div>
-
-              <div class="column3">
-                <div class="card1">
-                  <img
-                    src="/images/xperson_2.jpg.pagespeed.ic.1296G1Z9Tt.webp"
-                    alt="Mike" style="width:100%">
-                  <div class="container1">
-                    <h2 style="color: rgb(3, 3, 3); font-family:Arial,
-                      Helvetica, sans-serif;"><b>JEAN SMITH</b></h2>
-                    <p class="title" style="color: grey;">CEO & Founder</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="column3">
-                <div class="card1">
-                  <img
-                    src="images/xperson_3.jpg.pagespeed.ic.lJKZ84375k.webp"
-                    alt="John" style="width:100%">
-                  <div class="container1">
-                    <h2 style="color: rgb(3, 3, 3); font-family:Arial,
-                      Helvetica, sans-serif;"><b>DAVID WILSON</b></h2>
-                    <p class="title" style="color: grey;">CEO & Founder</p>
-                  </div>
+                <div class="card-body">
+                  <a href="#" class="card-link float-left hidden-text">Learn More</a>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="container">
-              <h1 style="color: black; font-family: Arial, Helvetica,
-                sans-serif; font-size: 20px;">Happy Customers</h1>
-            </div>
-          </div>
-          <br>
-          <br>
-          <div class="row">
-            <div class="container">
-              <i class="fa fa-quote-left" style="font-size:36px;color: black;"></i>
-            </div>
-          </div>
-          <br>
-          <br>
-          <div class="container">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-
-
-              <div class="carousel-inner">
-                <div class="item active">
-                  <p style="font-family: Arial,sans-serif;color: black;">Lorem
-                    Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy
-                    text ever since the 1500s, when an unknown printer took a
-                    galley of type and scrambled it to make a type specimen
-                    book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially
-                    unchanged. It was popularised in the 1960s with the release
-                    of Letraset sheets containing Lorem Ipsum passages, and more
-                    recently with desktop publishing software like Aldus
-                    PageMaker including versions of Lorem Ipsum.</p>
+            <div class="col-md-3 mr-5">
+              <div class="card" style="width: 27rem; box-shadow: 04px 4px 8px 4px rgba(0,0,0,0.2);">
+                <i class="card-img-top material-icons" style="font-size:70px;color:rgb(16, 91, 189)">people_outline</i>
+                <div class="card-body">
+                  <h3 class="card-title hidden-text">Strategic Patner</h3>
+                  <p class="card-text hidden-text">Some smaller river named dudan
+                    flows by
+                    their place and supplies it with the neccessary
+                    regelilia
+                  </p>
                 </div>
-
-                <div class="item">
-                  <p style="font-family: Arial,sans-serif;color: black;">Lorem
-                    Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy
-                    text ever since the 1500s, when an unknown printer took a
-                    galley of type and scrambled it to make a type specimen
-                    book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially
-                    unchanged. It was popularised in the 1960s with the release
-                    of Letraset sheets containing Lorem Ipsum passages, and more
-                    recently with desktop publishing software like Aldus
-                    PageMaker including versions of Lorem Ipsum.</p>
-                </div>
-
-                <div class="item">
-                  <p style="font-family: Arial,sans-serif;color: black;">Lorem
-                    Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy
-                    text ever since the 1500s, when an unknown printer took a
-                    galley of type and scrambled it to make a type specimen
-                    book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially
-                    unchanged. It was popularised in the 1960s with the release
-                    of Letraset sheets containing Lorem Ipsum passages, and more
-                    recently with desktop publishing software like Aldus
-                    PageMaker including versions of Lorem Ipsum.</p>
+                <div class="card-body">
+                  <a href="#" class="card-link float-left hidden-text">Learn More</a>
                 </div>
               </div>
-              <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-              </ol>
+            </div>
+            <div class="col-md-3 mr-5">
+              <div class="card" style="width: 27rem; box-shadow: 04px 4px 8px 4px rgba(0,0,0,0.2);">
+                <i class="card-img-top material-icons" style="font-size:70px;color:rgb(16, 91, 189)">people_outline</i>
+                <div class="card-body">
+                  <h3 class="card-title">Infinity Possibilities</h3>
+                  <p class="card-text">Some smaller river named dudan
+                    flows
+                    by
+                    their place and supplies it with the neccessary
+                    regelilia
+                  </p>
+                </div>
+                <div class="card-body">
+                  <a href="#" class="card-link float-left">Learn More</a>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+      </div></div>
+    </div>
 
-<!-- Footer -->
-<footer class="page-footer font-small indigo">
-
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left">
-
-    <!-- Grid row -->
+  </div>
+  <div class="container ">
     <div class="row">
+      <div class="col-md-6">
+        <h3 style="text-align: left;color: black;">Our Agency</h3>
+        <img src="images/xslider-1.jpg.pagespeed.ic.lh95K5ylj0.webp" alt="Agency" style="width:100%">
+      </div>
+      <div class="col-md-6">
+        <h3 style="color: black;text-align:left">
+          Why Us?
+        </h3>
 
-      <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+        <div class="accordion-item">
+          <div class="accordion-header" id="accordion">
+            <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion"
+              data-target="#waterMindDistrictMeteres">
+              <h4 class="accordion-toggle accordion-toggle-text">Provident
+                alias
+              </h4>
 
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 linkheading"  >Learn More</h5>
+            </div>
+            <div id="waterMindDistrictMeteres" class="panel-collapse
+                      collapse show">
+              <div class="accordion-body">
+                <div class="row" style="justify-content: left;">Lorem
+                  ipsum dolor sit amet, consectetur adipisicing elit.
+                  Possimus consequatur distinctio, atque soluta hic
+                  architecto tempora laborum dolor eum. Illum atque
+                  sunt repellendus eius nostrum iusto et at! Soluta,
+                  aliquid!</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!"class="footerlinks">How it works?</a>
-          </li>
-          <li>
-            <a href="#!"class="footerlinks">Useful Tools</a>
-          </li>
-          <li>
-            <a href="#!"class="footerlinks">Pricing </a>
-          </li>
-          <li>
-            <a href="#!"class="footerlinks">Sitemap</a>
-          </li>
-        </ul>
+
+          <div class="accordion-header" id="accordion">
+            <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion"
+              data-target="#waterMindDistrictMeteres">
+              <h4 class="accordion-toggle accordion-toggle-text">Debitis
+                ad similique tempore
+              </h4>
+
+            </div>
+            <div id="waterMindDistrictMeteres" class="panel-collapse
+                      collapse ">
+              <div class="accordion-body">
+                <div class="row" style="justify-content: left;">Lorem
+                  ipsum dolor sit amet, consectetur adipisicing elit.
+                  Possimus consequatur distinctio, atque soluta hic
+                  architecto tempora laborum dolor eum. Illum atque
+                  sunt repellendus eius nostrum iusto et at! Soluta,
+                  aliquid!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-header" id="accordion">
+            <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion"
+              data-target="#waterMindDistrictMeteres">
+              <h4 class="accordion-toggle accordion-toggle-text">ipsum
+                dolor sit amet
+              </h4>
+
+            </div>
+            <div id="waterMindDistrictMeteres" class="panel-collapse
+                      collapse  ">
+              <div class="accordion-body">
+                <div class="row" style="justify-content: left;">Lorem
+                  ipsum dolor sit amet, consectetur adipisicing elit.
+                  Possimus consequatur distinctio, atque soluta hic
+                  architecto tempora laborum dolor eum. Illum atque
+                  sunt repellendus eius nostrum iusto et at! Soluta,
+                  aliquid!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-header" id="accordion">
+            <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#accordion"
+              data-target="#waterMindDistrictMeteres">
+              <h4 class="accordion-toggle accordion-toggle-text">Modi natus suscipit
+              </h4>
+
+            </div>
+            <div id="waterMindDistrictMeteres" class="panel-collapse
+                      collapse  ">
+              <div class="accordion-body">
+                <div class="row" style="justify-content: left;">Lorem
+                  ipsum dolor sit amet, consectetur adipisicing elit.
+                  Possimus consequatur distinctio, atque soluta hic
+                  architecto tempora laborum dolor eum. Illum atque
+                  sunt repellendus eius nostrum iusto et at! Soluta,
+                  aliquid!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
 
       </div>
-      <!-- Grid column -->
+    </div>
+  </div>
+  <div class="columnc">
+    <div class="container mt-5 ">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>99,399</h3>
+          <p style="color:rgb(143, 140, 140)">NUMBER OF CLIENTS</p>
+        </div>
 
-      <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-4">
+          <h3>199</h3>
+          <p style="color:rgb(143, 140, 140)">NUMBER OF PERSONNEL</p>
+        </div>
+        <div class="col-md-4">
+          <h3>24</h3>
+          <p style="color:rgb(143, 140, 140)">YEARS OF EXPERIENCE</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-      <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+  <div class="row">
+    <div class="container">
+      <h2 style="text-align:center">The Leadership</h2>
+    </div>
+  </div>
+  <div class="container">
 
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 linkheading" >Support</h5>
 
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!"class="footerlinks">FAQS</a>
-          </li>
-          <li>
+    <div class="row">
+      <div class="col-xs-6 col-md-4 column3">
+        <div class="card">
+          <img src="/images/xperson_1.jpg.pagespeed.ic.YTN3ICQ2Kp.webp" alt="Bob Miller" style="width:100%">
+          <div class="container1">
+            <h2 style="color: rgb(3, 3, 3); font-family:Arial,
+                        Helvetica, sans-serif;"><b>BOB MILLER</b></h2>
+            <p class="title" style="color: grey;">CEO & Founder</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-6 col-md-4 column3">
+        <div class="card">
+          <img src="/images/xperson_2.jpg.pagespeed.ic.1296G1Z9Tt.webp" alt="Mike" style="width:100%">
+          <div class="container1">
+            <h2 style="color: rgb(3, 3, 3); font-family:Arial,
+                        Helvetica, sans-serif;"><b>JEAN SMITH</b></h2>
+            <p class="title" style="color: grey;">CEO & Founder</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-6 col-md-4 column3">
+        <div class="card">
+          <img src="images/xperson_3.jpg.pagespeed.ic.lJKZ84375k.webp" alt="John" style="width:100%">
+          <div class="container1">
+            <h2 style="color: rgb(3, 3, 3); font-family:Arial,
+                        Helvetica, sans-serif;"><b>DAVID WILSON</b></h2>
+            <p class="title" style="color: grey;">CEO & Founder</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="container">
+      <h1 style="color: black; font-family: Arial, Helvetica,
+                  sans-serif; font-size: 20px;">Happy Customers</h1>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="row">
+    <div class="container">
+      <i class="fa fa-quote-left" style="font-size:36px;color:
+                  black;"></i>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+
+
+      <div class="carousel-inner ">
+        <div class="item active">
+          <p style="font-family: Arial,sans-serif;color: black;">Lorem
+            Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard
+            dummy
+            text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen
+            book. It has survived not only five centuries, but also
+            the
+            leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the
+            release
+            of Letraset sheets containing Lorem Ipsum passages, and
+            more
+            recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+
+        <div class="item">
+          <p style="font-family: Arial,sans-serif;color: black;">Lorem
+            Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard
+            dummy
+            text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen
+            book. It has survived not only five centuries, but also
+            the
+            leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the
+            release
+            of Letraset sheets containing Lorem Ipsum passages, and
+            more
+            recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+
+        <div class="item">
+          <p style="font-family: Arial,sans-serif;color: black;">Lorem
+            Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard
+            dummy
+            text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen
+            book. It has survived not only five centuries, but also
+            the
+            leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the
+            release
+            of Letraset sheets containing Lorem Ipsum passages, and
+            more
+            recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+      </div>
+      <br>
+      <ol class="carousel-indicators">
+        <li style="background-color: grey;" data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li style="background-color: grey;" data-target="#myCarousel" data-slide-to="1"></li>
+        <li style="background-color: grey;" data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+    </div>
+  </div>
+
+
+  <div class=" columnc">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 style="color:black">Our Services</h3>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <i class="fa-solid fa-gear fa-5x"></i>
+          <p style="color:black">Regular Updates</p>
+
+          <p style="color:rgb(143, 140, 140)">A small river named Duden flows by their place and supplier it with
+            necessary regelilia</pp>
+        </div>
+
+        <div class="col-md-4">
+          <i class="fa-solid fa-bolt fa-5x"></i>
+          <p style="color:black">Infinity Possibilities</p>
+          <p style="color:rgb(143, 140, 140)">A small river named Duden flows by their place and supplier it with
+            necessary regelilia</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa-solid fa-globe fa-5x"></i>
+          <p style="color:black">Good Security</p>
+          <p style="color:rgb(143, 140, 140)">A small river named Duden flows by their place and supplier it with
+            necessary regelilia</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <i class="fa-solid fa-lightbulb fa-5x"></i>
+          <p style="color:black">HR Management</p>
+          <p style="color:rgb(143, 140, 140)">A small river named Duden flows by their place and supplier it with
+            necessary regelilia</p>
+        </div>
+
+        <div class="col-md-4">
+          <i class="fa-solid fa-message fa-5x"></i>
+          <p style="color:black">Intiuative Thinking</p>
+          <p style="color:rgb(143, 140, 140)">A small river named Duden flows by their place and supplier it with
+            necessary regelilia</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa-solid fa-video fa-5x"></i>
+          <p style="color:black">Play Videos</p>
+          <p style="color:rgb(143, 140, 140) ">A small river named Duden flows by their place and supplier it with
+            necessary regelilia</p>
+        </div>
+        <div class="container mt-5 columnc">
+          <button class="button " style="color:white ;background-color:black">MORE FEATURES</button>
+        </div>
+        <div class="container mt-5 columnc"></div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="row ">
+    <div class="container">
+      <h1 style="color: black; font-family: Arial, Helvetica,
+                  sans-serif; font-size: 20px;">Our Blog</h1>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="container blogmargin">
+      <p style="color: rgb(97, 94, 94); font-family: Arial, Helvetica,
+                  sans-serif; font-size: 10px; text-align: center;">Lorem
+        Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard
+        dummy
+        text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen
+        book. It has survived not only five centuries, but also
+        the</p>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="row">
+  <div class="container">
+  <div class="row" >
+    <div class="col-md-4 padding-0">
+      <a target="_blank" href="img_forest.jpg">
+        <img src="images/xslider-4.jpg.pagespeed.ic._WUo7BMTuS.webp"   >
+      </a>
+    </div>
+    <div class="col-md-8 padding-0">
+      <a target="_blank" href="img_lights.jpg">
+        <img src="images/xslider-3.jpg.pagespeed.ic.X6eIzTOg3j.webp"  >
+      </a>
+    </div>
+  </div>
+    <div class="row" >
+    <div class="col-md-8 padding-0">
+      <a target="_blank" href="img_mountains.jpg">
+        <img src="images/xslider-2.jpg.pagespeed.ic.EWb48bP-9Y.webp"  >
+      </a>
+    </div>
+    <div class="col-md-4 padding-0">
+      <a target="_blank" href="img_lights.jpg">
+        <img src="images/xslider-1.jpg.pagespeed.ic.lh95K5ylj0.webp" >
+      </a>
+    </div></div>
+  </div>
+</div>
+</div>
+  <br><br><br><br>
+  <!-- Footer -->
+  <footer class="page-footer font-small indigo columnc">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="rowfooter">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4
+                      linkheading">Learn More</h5>
+
+          <ul class="list-unstyled">
             <li>
-              <a href="#!"class="footerlinks">Contact Us</a>
+              <a href="#!" class="footerlinks">How it works?</a>
             </li>
-            <a href="#!"class="footerlinks">Help Desk</a>
-          </li>
-          <li>
-            <a href="#!"class="footerlinks">Knowledgebase</a>
-          </li>
+            <li>
+              <a href="#!" class="footerlinks">Useful Tools</a>
+            </li>
+            <li>
+              <a href="#!" class="footerlinks">Pricing </a>
+            </li>
+            <li>
+              <a href="#!" class="footerlinks">Sitemap</a>
+            </li>
+          </ul>
 
-        </ul>
+        </div>
+        <!-- Grid column -->
+
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4
+                      linkheading">Support</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="footerlinks">FAQS</a>
+            </li>
+            <li>
+            <li>
+              <a href="#!" class="footerlinks">Contact Us</a>
+            </li>
+            <a href="#!" class="footerlinks">Help Desk</a>
+            </li>
+            <li>
+              <a href="#!" class="footerlinks">Knowledgebase</a>
+            </li>
+
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4
+                      linkheading">About Us</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="footerlinks">About us</a>
+            </li>
+            <li>
+              <a href="#!" class="footerlinks">Careers</a>
+            </li>
+            <li>
+              <a href="#!" class="footerlinks">Terms of services</a>
+            </li>
+            <li>
+              <a href="#!" class="footerlinks">Privacy Policy</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4
+                      linkheading">Connect with us</h5>
+          <div class="footer-nav-menu-icons">
+            <ul class="footer-nav-menu-icons">
+              <div>
+                <a href="" class="me-4  ">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 ">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+
+            </ul>
+
+          </div>
+        </div>
+        <!-- Grid column -->
 
       </div>
-      <!-- Grid column -->
+      <!-- Grid row -->
 
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 linkheading">About Us</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!"class="footerlinks">About us</a>
-          </li>
-          <li>
-            <a href="#!"class="footerlinks">Careers</a>
-          </li>
-          <li>
-            <a href="#!"class="footerlinks">Terms of services</a>
-          </li>
-          <li>
-            <a href="#!"class="footerlinks">Privacy Policy</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 linkheading">Connect with us</h5>
-<div class="footer-nav-menu-icons">
-        <ul class="footer-nav-menu-icons">
-          <li class="footer-nav-menu-icons">
-            <a href="#!" class="footerlinks">Link 1</a>
-          </li>
-          <li>
-            <a href="#!"class="footerlinks">Link 2</a>
-          </li>
-          <li>
-            <a href="#!"class="footerlinks">Link 3</a>
-          </li>
-          <li>
-            <a href="#!"class="footerlinks">Link 4</a>
-          </li>
-        </ul>
-
-      </div>
     </div>
-      <!-- Grid column -->
+    <!-- Footer Links -->
 
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="color: rgb(0, 0, 0);">© 2020 Copyright:
+      <a href="/" style="font-size: 10px;color: grey;text-align:
+                  center;"> Copyright &copy; 2022 All rights reserved ! This
+        template is made with <i class="fa fa-heart" style="font-size:10px;color:red"></i> by Palwasha Malik</a>
     </div>
-    <!-- Grid row -->
+    <!-- Copyright -->
 
-  </div>
-  <!-- Footer Links -->
+  </footer>
+  <!-- Footer -->
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="/" style="font-size: 10px;color: grey;text-align: center;"> Copyright &copy; 2022 All rights reserved ! This template is made with <i class="fa fa-heart" style="font-size:10px;color:red"></i> by Palwasha Malik</a>
-  </div>
-  <!-- Copyright -->
+</body>
 
-</footer>
-<!-- Footer -->
-
-        </body>
-      </html>
+</html>
