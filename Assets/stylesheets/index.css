@@ -1,250 +1,281 @@
 .container-fluid{
-line-height: 1.8;
-font-family: "Work Sans",arial,sans-serif;
-
-}
-.navbar-brand
-{
-  color: white;
-  align-content: left;
-}
-.nav-link
-{
-  color: white;
-    margin: 0;
-}
-#collapsibleNavbar{
-  margin-left: 50%;
-}
-.header{
-  height: 700px;
-}
-.dropdown{
- border: none;
- background-color: transparent;
-    position: relative;
-    display: inline-block;
-
-}
-.bg-img {
-  /* The image used */
-    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/images/xhero_1.jpg.pagespeed.ic.yu1ylfvph1.webp) no-repeat center;
-
-  background-size: cover;
-  height: 500px;
-  position: relative;
-  font-size: 15px;
-  color:white ;
-}
-.navbar{
-  background-color: transparent!important;
-}
-
-
-navbar-light{
-  color:white;
-}
-@media(max-width:768)
-{
-.foot{
-  text-align: left;
-}
-}
-
-
-.card-body{
-  color:rgb(5, 5, 4);
-  font-size: 15px;
-  font-family: Arial, sans-serif;
   line-height: 1.8;
-}
+  font-family: "Work Sans",arial,sans-serif;
+
+  }
+
+  .navbar-brand
+  {
+    color: white;
+    align-content: left;
+  }
+  .w{
+    width: 27rem;
+    box-shadow: 04px 4px 8px 4px rgba(0,0,0,0.2);
+  }
+  @media (max-width:786px) {
+    .w{
+      width: 40rem;
+    }
+    .m{
+      margin-top: 0;
+    }
+  }
+  .nav-link
+  {
+    color: white;
+      margin: 0;
+  }
+  #collapsibleNavbar{
+    margin-left: 50%;
+  }
+  .header{
+    height:1000px;
+  }
+  @media (min-width:786px) {
+    .header{
+      height:700px;
+
+    }
+
+    .navbar{
+      background-color: transparent!important;
+    }
+
+  }
+  .dropdown{
+   border: none;
+   background-color: transparent;
+      position: relative;
+      display: inline-block;
+
+  }
+  .bg-img {
+    /* The image used */
+      background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../images/xhero_1.jpg.pagespeed.ic.yu1ylfvph1.webp) no-repeat center;
+
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    font-size: 15px;
+    color:white ;
+  }
 
 
-.card{
-  direction: row;
-
-}
-.collapsible {
-  background-color: transparent;
-  color: #444;
-  cursor: pointer;
-  padding: 10px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: transparent;
-  color: blue;
-}
-
-/* Style the collapsible content. Note: hidden by default */
-.content2 {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: black;
-}
-.collapsible:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-  content:blue;
-}
+  navbar-light{
+    color:white;
+  }
+  @media(max-width:768)
+  {
+  .foot{
+    text-align: left;
+  }
 
 
-.carousel-indicators .active:after {
-  width: 12px;
-  height: 12px;
-  margin: 0;
-  background-color: #000000;
-}
+  }
+  .m{
+    margin:3rem;
+  }
 
-/* Float four columns side by side */
-.columnc {
-  background-color: rgb(243, 241, 252);
-  color: blue;
-}
+  .card-body{
+    color:rgb(5, 5, 4);
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+  }
 
 
-/* Clear floats after the columns */
-.rowc:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+  .card{
+    direction: row;
 
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .columnc{
+  }
+  .collapsible {
+    background-color: transparent;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
     width: 100%;
-    display: block;
-    margin-bottom: 10px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
   }
-  .rowfooter{
-    text-align:left;
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: transparent;
+    color: blue;
   }
-}
-.column3 {
-  float: center;
-  width: 100%;
-  margin-bottom: 16px;
-  padding: 8px;
-}
 
-.card1 {
-  margin: 8px;
-}
-.container1 {
-
-  padding-left: 20px;
-  padding-right: 20px;
-  bottom: 20px;
-  right: 20px;
-
-}
-
-.container1::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
-.footerlinks{
-  font-size: 10px;color: grey;
-}
-.linkheading{
-  color: rgb(78, 76, 76);font-size: 12px;
-}
-
-.accordion-item{
-  border:none;
-  color: black;
-  background: transparent;
-}
-
-.fixed{
-  position: relative;
-  top: 5px;
-}
-@media(max-width:768px){
-  .hidden-text{
+  /* Style the collapsible content. Note: hidden by default */
+  .content2 {
+    padding: 0 18px;
     display: none;
+    overflow: hidden;
+    background-color: black;
   }
-}
-.panel-heading {
-  cursor: pointer;
-  content: left;
-}
-/* CSS Method for adding Font Awesome Chevron Icons */
-.accordion-toggle:after {
-  /* symbol for "opening" panels */
-  font-family:'FontAwesome';
-  content:"\f146";
-  float: right;
-  color: inherit;
-  text-decoration: rgb(47, 116, 177);
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content:blue;
+  }
 
 
-}
-.panel-heading.collapsed .accordion-toggle:after {
-  /* symbol for "collapsed" panels */
-  content:"\f0fe";
-  color:rgb(47, 116, 177);
+  .carousel-indicators .active:after {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #000000;
+  }
+
+  /* Float four columns side by side */
+  .columnc {
+    background-color: rgb(243, 241, 252);
+    color: blue;
+  }
+
+
+  /* Clear floats after the columns */
+  .rowc:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .columnc{
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .rowfooter{
+      text-align:left;
+    }
+
+  .p{
+    padding: 0;
+    margin: 0;
+  }
+  }
+  .column3 {
+    float: center;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 8px;
+  }
+
+  .our-agency{
+    margin-top: 30%
+  }
+
+  .container1 {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 20px;
+    right: 20px;
+
+  }
+
+  .container1::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  .footerlinks{
+    font-size: 10px;color: grey;
+  }
+  .linkheading{
+    color: rgb(78, 76, 76);font-size: 12px;
+  }
+
+  .accordion-item{
+    border:none;
+    color: black;
+    background: transparent;
+  }
+
+  .fixed{
+    position: relative;
+    top: 5px;
+  }
+  @media(max-width:768px){
+    .hidden-text{
+      display: none;
+    }
+  }
+  .panel-heading {
+    cursor: pointer;
+    content: left;
+  }
+  /* CSS Method for adding Font Awesome Chevron Icons */
+  .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family:'FontAwesome';
+    content:"\f146";
+    float: right;
+    color: inherit;
+    text-decoration: rgb(47, 116, 177);
+
+
+  }
+  .panel-heading.collapsed .accordion-toggle:after {
+    /* symbol for "collapsed" panels */
+    content:"\f0fe";
+    color:rgb(47, 116, 177);
 
 
 
-}
-.panel-heading {
- padding: 0px 0px;
-}
+  }
+  .panel-heading {
+   padding: 0px 0px;
+  }
 
-.accordion-toggle-text{
-  text-align: left;
-  background: transparent;
-}
-img {
-  max-width: 100%;
-}
+  .accordion-toggle-text{
+    text-align: left;
+    background: transparent;
+  }
+  img {
+    max-width: 100%;
+  }
 
-div.gallery {
-  margin: 0px;
-  float: left;
-  width: 300px;
-}
+  div.gallery {
+    margin: 0px;
+    float: left;
+    width: 300px;
+  }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
 
-div.gallery img {
+  div.gallery img {
 
-  height: auto;
-}
+    height: auto;
+  }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
 
-.blog{
-  padding: 100px 100px 100px 100px;
-}
-.padding-0{
-  padding-right:0;
-  padding-left:0;
-}
-.padding{
-  padding-right:10px;
-  padding-left:10px;
-}
+  .blog{
+    padding: 100px 100px 100px 100px;
+  }
+  .padding-0{
+    padding-right:0;
+    padding-left:0;
+  }
+  .padding{
+    padding-right:10px;
+    padding-left:10px;
+  }
