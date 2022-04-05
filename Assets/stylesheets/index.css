@@ -17,9 +17,7 @@
     .w{
       width: 40rem;
     }
-    .m{
-      margin-top: 0;
-    }
+
   }
   .nav-link
   {
@@ -35,9 +33,7 @@
   @media (min-width:786px) {
     .header{
       height:700px;
-
     }
-
     .navbar{
       background-color: transparent!important;
     }
@@ -70,12 +66,8 @@
   .foot{
     text-align: left;
   }
-
-
   }
-  .m{
-    margin:3rem;
-  }
+
 
   .card-body{
     color:rgb(5, 5, 4);
@@ -279,3 +271,6 @@
     padding-right:10px;
     padding-left:10px;
   }
+.img-f{
+  object-fit: cover;
+}
