@@ -1,3 +1,14 @@
+.heading{
+  float:left;
+  width: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: relative;
+text-align: left;
+}
+@media (max-width:786px){
+  .heading{width:100%;}}
+
 .button {
   border: none;
   padding: 16px 32px;
@@ -29,10 +40,5 @@
 
 .button2:hover {
   color: rgb(58, 149, 201);
-
-}
-.row{
-  text-align:center;
-  width: 100%;
 
 }
