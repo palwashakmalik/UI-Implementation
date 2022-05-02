@@ -98,6 +98,7 @@ padding: 0;
   .hidden-text{
     display: none;
   }
+  .cards_item{padding: 0;}
   .cards{flex-direction: column;}}
 
   .text-float{
@@ -105,4 +106,21 @@ padding: 0;
     bottom: 10%;
   right: 20%;
   left:20%;
+  }
+
+
+
+
+  .leaderscontent{
+
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      left:20px;
+      background-color: rgb(255, 255, 255);
+      color: black;
+      padding-left: 20px;
+      padding-right: 20px;
+
+
   }

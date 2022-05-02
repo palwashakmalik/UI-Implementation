@@ -22,33 +22,7 @@
     }
 
   }
-  .thumbnail {
-    width: 100%;
-  }
-  @media (min-width:576px){
-    .thumbnail {
-      width: 50%;
-    }
-    .flex-sm-row{
-      -webkit-box-orient: horizontal!important;
-      -webkit-box-direction: normal!important;
-      flex-direction: row!important;
-    }
 
-  }
-  .d-flex{
-    display: flex!important;
-  }
-  .thumbnail1{
-    height: 500px;
-    display: block;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-  }
-  .thumbnail {
-    width: 100%;
-  }
   .nav-link
   {
     color: white;
@@ -86,7 +60,6 @@
 
     background-size: cover;
     height: 500px;
-    position: relative;
     font-size: 15px;
     color:white ;
   }
@@ -102,30 +75,6 @@
   }
   }
 
-
-  .card-body{
-    color:rgb(5, 5, 4);
-    font-size: 15px;
-    font-family: Arial, sans-serif;
-    line-height: 1.8;
-  }
-
-
-  .card{
-    direction: row;
-
-  }
-  .collapsible {
-    background-color: transparent;
-    color: #444;
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-  }
 
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .collapsible:hover {
@@ -274,25 +223,6 @@
     max-width: 100%;
   }
 
-  div.gallery {
-    margin: 0px;
-    float: left;
-    width: 300px;
-  }
-
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-
-  div.gallery img {
-
-    height: auto;
-  }
-
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
 
   .blog{
     padding: 100px 100px 100px 100px;
@@ -307,5 +237,48 @@
   }
 .img-f{
   object-fit: cover;
+}
+
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto
+}
+
+@media (min-width:576px) {
+  .container {
+    max-width: 540px
+  }
+}
+
+@media (min-width:768px) {
+  .container {
+    max-width: 720px
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+    max-width: 960px
+  }
+}
+
+@media (min-width:1200px) {
+  .container {
+    max-width: 1140px
+  }
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px
 }
 
